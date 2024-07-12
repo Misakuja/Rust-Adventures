@@ -1,0 +1,10 @@
+[package]
+name = "untitled"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "untitled"
+path = "src/SimpleCalculator/main.rs"
