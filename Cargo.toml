@@ -4,7 +4,12 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+regex = "1.10.5"
 
 [[bin]]
 name = "untitled"
-path = "src/SimpleCalculator/main.rs"
+path = "src/SimpleCalculator-v2/main.rs"
+
+[[bin]]
+name = "untitled2"
+path = "src/ToDoList/main.rs"
