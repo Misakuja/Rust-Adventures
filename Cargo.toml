@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 regex = "1.10.5"
+rand = "0.9.0-alpha.1"
 
 [[bin]]
 name = "untitled"
@@ -13,3 +14,7 @@ path = "src/SimpleCalculator-v1/main.rs"
 [[bin]]
 name = "untitled2"
 path = "src/SimpleCalculator-v2/main.rs"
+
+[[bin]]
+name = "untitled3"
+path = "src/GuessingGame/main.rs"
