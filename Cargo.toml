@@ -8,13 +8,21 @@ regex = "1.10.5"
 rand = "0.9.0-alpha.1"
 
 [[bin]]
-name = "untitled"
+name = "SimpleCalcV1"
 path = "src/SimpleCalculator-v1/main.rs"
 
 [[bin]]
-name = "untitled2"
+name = "SimpleCalcV2"
 path = "src/SimpleCalculator-v2/main.rs"
 
 [[bin]]
-name = "untitled3"
+name = "GuessingGame"
 path = "src/GuessingGame/main.rs"
+
+[[bin]]
+name = "EnumTest"
+path = "src/EnumTest.rs"
+
+[[bin]]
+name = "AddReadFile"
+path = "src/AddReadFile/main.rs"
