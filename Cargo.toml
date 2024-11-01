@@ -26,3 +26,8 @@ path = "src/EnumTest.rs"
 [[bin]]
 name = "TemperatureConverter"
 path = "src/TemperatureConverter/main.rs"
+
+
+[[bin]]
+name = "QuickSort"
+path = "src/QuickSort/main.rs"
