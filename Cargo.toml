@@ -20,14 +20,13 @@ name = "GuessingGame"
 path = "src/GuessingGame/main.rs"
 
 [[bin]]
-name = "EnumTest"
-path = "src/EnumTest.rs"
-
-[[bin]]
 name = "TemperatureConverter"
 path = "src/TemperatureConverter/main.rs"
 
+[[bin]]
+name = "EnumTest"
+path = "src/enum_test.rs"
 
 [[bin]]
 name = "QuickSort"
-path = "src/QuickSort/main.rs"
+path = "src/quick_sort.rs"
