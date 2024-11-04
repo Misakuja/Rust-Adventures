@@ -23,7 +23,7 @@ fn quicksort(arr: &mut [i32], low: usize, high: usize) {
 }
 
 #[test]
-fn test_quicksort() {
+fn test_quick_sort() {
     let mut quicksort_array: [i32; 10] = [1, 5, 6, 7, 8, 9, 2, 3, 6, 11];
     let expected: [i32; 10] = [1, 2, 3, 5, 6, 6, 7, 8, 9, 11];
 
@@ -36,3 +36,5 @@ fn test_quicksort() {
 
     assert_eq!(quicksort_array, expected)
 }
+
+fn main() {}

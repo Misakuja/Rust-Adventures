@@ -30,3 +30,11 @@ path = "src/enum_test.rs"
 [[bin]]
 name = "QuickSort"
 path = "src/quick_sort.rs"
+
+[[bin]]
+name = "RadixSort"
+path = "src/radix_sort.rs"
+
+[[bin]]
+name = "CountingSort"
+path = "src/counting_sort.rs"
