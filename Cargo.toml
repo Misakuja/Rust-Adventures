@@ -38,3 +38,7 @@ path = "src/radix_sort.rs"
 [[bin]]
 name = "CountingSort"
 path = "src/counting_sort.rs"
+
+[[bin]]
+name = "binarySearch"
+path = "src/binary_search.rs"
