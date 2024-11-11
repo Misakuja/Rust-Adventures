@@ -42,3 +42,7 @@ path = "src/counting_sort.rs"
 [[bin]]
 name = "binarySearch"
 path = "src/binary_search.rs"
+
+[[bin]]
+name = "mergeSort"
+path = "src/merge_sort.rs"

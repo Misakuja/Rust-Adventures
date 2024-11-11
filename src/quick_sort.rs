@@ -12,13 +12,13 @@ fn partitioning(arr: &mut [i32], low: usize, high: usize) -> usize {
     (i + 1) as usize
 }
 
-fn quicksort(arr: &mut [i32], low: usize, high: usize) {
+fn quick_sort(arr: &mut [i32], low: usize, high: usize) {
     if low < high {
         let pivot_index = partitioning(arr, low, high);
         if pivot_index > 0 {
-            quicksort(arr, low, pivot_index - 1);
+            quick_sort(arr, low, pivot_index - 1);
         }
-        quicksort(arr, pivot_index + 1, high);
+        quick_sort(arr, pivot_index + 1, high);
     }
 }
 
@@ -30,7 +30,7 @@ fn test_quick_sort() {
     println!("Before quicksort: {:?}", quicksort_array);
 
     let len = quicksort_array.len();
-    quicksort(&mut quicksort_array, 0, len - 1);
+    quick_sort(&mut quicksort_array, 0, len - 1);
 
     println!("After quicksort: {:?}", quicksort_array);
 
