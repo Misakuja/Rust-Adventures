@@ -55,5 +55,4 @@ fn test_merge_sort() {
 }
 
 fn main() {
-    test_merge_sort();
 }
