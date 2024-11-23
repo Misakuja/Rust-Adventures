@@ -14,7 +14,6 @@ fn dynamic_program(x: &[char], n : usize, y: &[char], m : usize) -> i32 {
     }
     s[n][m]
 }
-
 #[test]
 fn test_dynamic_program() {
     let x: [char; 11] = ['A', 'B', 'R', 'A', 'C', 'A', 'D', 'A', 'B', 'R', 'A'];
