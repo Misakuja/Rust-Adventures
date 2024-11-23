@@ -46,3 +46,7 @@ path = "src/binary_search.rs"
 [[bin]]
 name = "mergeSort"
 path = "src/merge_sort.rs"
+
+[[bin]]
+name = "dynamic_program"
+path = "src/dynamic_program.rs"
